@@ -5,7 +5,7 @@ Fog Launcher 1.3.5 for Windows x64 (Minecraft Java Edition 1.21.11 + Fabric).
 ## Website
 
 - Live demo: <https://arystanovnurs01-dotcom.github.io/fog-launcher/>
-- Target domain: <https://fogvisual.ru/> (DNS setup required)
+- Public domain: <https://fogvisual.is-a.dev/> (is-a.dev registration pending)
 - The public demo uses browser-only demo authentication. The full server version
   with Express + PostgreSQL is in the [Fog_Launcher_Full_Project.zip](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/download/v1.3.5/Fog_Launcher_Full_Project.zip) release asset.
 - Standalone preview: [Fog_Launcher_Preview.html](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/download/v1.3.5/Fog_Launcher_Preview.html).
