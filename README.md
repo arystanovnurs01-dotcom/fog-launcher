@@ -1,39 +1,48 @@
 # Fog Launcher
 
-Fog Launcher 1.3.5 for Windows x64 (Minecraft Java Edition 1.21.11 + Fabric).
+Fog Launcher 1.3.6 for Windows x64 (Minecraft Java Edition 1.21.11 + Fabric).
 
 ## Website
 
 - Live demo: <https://arystanovnurs01-dotcom.github.io/fog-launcher/>
-- Public domain: <https://fogvisual.is-a.dev/> (is-a.dev registration pending)
+- Public domain: пока нет. Заявка на `fogvisual.is-a.dev` отклонена is-a.dev
+  (root-домены только для портфолио разработчика).
 - The public demo uses browser-only demo authentication. The full server version
-  with Express + PostgreSQL is in the [Fog_Launcher_Full_Project.zip](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/download/v1.3.5/Fog_Launcher_Full_Project.zip) release asset.
-- Standalone preview: [Fog_Launcher_Preview.html](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/download/v1.3.5/Fog_Launcher_Preview.html).
+  with Express + PostgreSQL is not deployed publicly yet.
+- Standalone preview: <https://arystanovnurs01-dotcom.github.io/>.
 
 ## Download
 
-- [FogLauncher-1.3.5.exe](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/latest/download/FogLauncher-1.3.5.exe) — one file, recommended.
-- [FogLauncher-1.3.5-win-x64.zip](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/latest/download/FogLauncher-1.3.5-win-x64.zip) — portable package with `update.json` and licenses.
-- [All releases](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases)
+- [FogLauncher.exe](https://arystanovnurs01-dotcom.github.io/fog-launcher/FogLauncher.exe) — one clean file, recommended.
+- [Update manifest](https://arystanovnurs01-dotcom.github.io/fog-launcher/latest.json).
+- [GitHub release v1.3.6](https://github.com/arystanovnurs01-dotcom/fog-launcher/releases/tag/v1.3.6) — fallback asset.
 
 SHA-256 for the exe:
 
-`EAE2389B6DE1F14A47B4BD2CB5C78334BB50C6FE4F4E82EF007005D15F5551BF`
+`BC05F1661147C01A223759E04F799A55B35C75D89B4256484D482B7CB68EB01A`
+
+Size: 93 107 405 bytes.
 
 ## Auto-update
 
-The launcher checks GitHub Releases on startup and offers the newest
-`FogLauncher-<version>.exe`. The `update.json` shipped with the launcher already
-contains `githubRepo` and a fallback `manifestUrl`, so no setup is needed.
+The launcher checks the Pages manifest on startup and offers the newest
+`FogLauncher.exe`. The `update.json` shipped with the launcher points to
+`https://arystanovnurs01-dotcom.github.io/fog-launcher/latest.json`.
 
 ## Clean package
 
 The release contains only the launcher, the bundled mods, licenses and
 `update.json`. It does **not** contain accounts, profiles, skins, logs or
-personal settings.
+personal settings. The public page no longer offers a ZIP archive or
+source-code links.
 
-## What's new in 1.3.5
+## What's new in 1.3.6
 
-- AutoSwap: swap totem / player head / sphere to the left hand without throwing a pearl.
-- Hit Effects: no circular flash; the added non-circular effects remain.
-- Automatic updates via GitHub Releases.
+- Six launcher styles: Moonlit Night, Light Breeze, Forest Fog, Neon, Sunset,
+  Lunar Clouds.
+- One fog-and-moon avatar across the launcher.
+- Clean `FogLauncher.exe` download without a version suffix or `(1)`.
+- SmartScreen guidance and SHA-256 verification on the site.
+- Fog Visuals 1.7.0: realistic blood droplets and ground puddles, new kill,
+  totem, Target ESP, swing trail and jump circle effects.
+- Redesigned mod menu and HUD in the Fog palette.
