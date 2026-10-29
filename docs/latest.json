@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.8",
+    "version":  "1.3.9",
     "url":  "https://arystanovnurs01-dotcom.github.io/fog-launcher/FogLauncher.exe",
-    "sha256":  "ce56ce2b9e278281b7d4f0be1a6d108f4fc49a10858af22bd61a1fd593fad71c",
-    "size":  99247309,
-    "notes":  "FogVisuals 1.0.2: кровь, пульс цели, эхо взмаха, HUD Скорость, новая тема Туман. Чёткие головы скинов в профиле.",
+    "sha256":  "6c57805d524d56744d9103b29f56303e0c4053828f0a3a5244fe75f369aa9be8",
+    "size":  99261645,
+    "notes":  "Источник загрузок Modrinth / CurseForge в каталоге модов и ресурспаков, вход и регистрация Fog Account прямо из лаунчера. Внутри FogVisuals 1.0.2.",
     "mandatory":  false
 }
