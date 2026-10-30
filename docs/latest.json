@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.10",
+    "version":  "1.3.11",
     "url":  "https://arystanovnurs01-dotcom.github.io/fog-launcher/FogLauncher.exe",
-    "sha256":  "6efc25adab81d4b263274c7629e447c99e3db26e8f311d6cd75d0e43a61b8eb3",
-    "size":  99263406,
-    "notes":  "FogVisuals 1.0.3: плавная анимация открытия меню с подсветкой, AutoSwap с режимами 2/3 предмета, выбором слотов хотбара, задержкой и фильтром обычных тотемов.",
+    "sha256":  "9d22ac4b228ffeb59dde159894bb74e52abe3bb5dc5ec9af0ceddb4892733cd3",
+    "size":  99261870,
+    "notes":  "FogVisuals 1.0.4: AutoSwap теперь только на клавишу R — меняет тотем и сферу/голову, следующий свап возвращает предмет. Настройки как в видео: Swap key (R) и Swap card. Лаунчер: чёрный минимализм, белая кнопка Play.",
     "mandatory":  false
 }
