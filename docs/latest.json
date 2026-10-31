@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.13",
+    "version":  "1.3.14",
     "url":  "https://arystanovnurs01-dotcom.github.io/fog-launcher/FogLauncher.exe",
-    "sha256":  "5b458a57e3b37eb3a2fcc2a91248eae064d2240ab55f59535d82c52fbfb2243d",
-    "size":  99262894,
-    "notes":  "Fog Launcher 1.3.13: все шесть стилей переведены на чёрный минимализм (светлый — белый), белая кнопка Play, тонкие границы. FogVisuals 1.0.5: HUD в стиле тёмных карточек, лаунчер сам обновляет мод.",
+    "sha256":  "f3fe03eace39e4ddd1a3b6fd32e64a734799dcaebd785c70b97194a2699a784e",
+    "size":  99263406,
+    "notes":  "Fog Launcher 1.3.14: лаунчер как в видео — узкий сайдбар, крупный заголовок, карточка профиля и белая Play. Fog Visuals 1.0.6: полупрозрачный HUD с размытием, AutoSwap в разделе Бой, настройки Swap key (R) и Swap card.",
     "mandatory":  false
 }
